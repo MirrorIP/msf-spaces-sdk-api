@@ -1,0 +1,37 @@
+MIRROR Spaces SDK API
+---------------------
+
+This project specifies the interface for Java/Android applications to handle
+MIRROR spaces.
+
+Installation
+------------
+This API only defines the interface. A concrete implementation is required for
+the usage within a MIRROR application. 
+
+Usage
+-----
+
+The main components of the SDK are three handlers:
+
+de.imc.mirror.sdk.ConnectionHandler:
+This handler manages the connection to the XMPP server.
+
+de.imc.mirror.sdk.SpacesHandler:
+The spaces handler provides an high-level API to retrieve, create and manage
+MIRROR reflection spaces.
+
+de.imc.mirror.sdk.DataHandler:
+The data handler provides an API to send and receive data over reflection
+spaces. It provides wrappers for data objects and models, enabling an object-
+oriented handling of the data. Furthermore, it is possible to filter incoming
+data for specific data models.
+
+The complete API documentation is available online:
+http://docs.mirror-demo.eu/spaces-sdk/api/1.3/
+
+License Information
+-------------------
+You can use this software in the terms of the Apache License 2.0. See LICENSE file for details.
+
+The licensing conditions for included 3rd party software is provided with the related JAR files.
