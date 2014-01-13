@@ -39,7 +39,7 @@ License information for third party libraries is provided with the related JAR f
 
 ## Changelog
 
-v1.3.0 - November 26, 2013
+v1.3 - November 26, 2013
 
 - Added ConnectionHandler.getNetworkInformation() to retrieve information about the services available in the XMPP network.
 - Added support for the Common Data Model (CDM) version 2.0.
@@ -47,7 +47,7 @@ v1.3.0 - November 26, 2013
 - DataHandler: Improved client side data object filtering.
 - Updated JDOM to version 2.0.5.
 
-v1.2.0 - April 15, 2013
+v1.2 - April 15, 2013
 
 - Interfaces for model classes (CDMData*, DataModel, DataObject, *Space, SpaceChannel, SpaceMember) now extend the java.io.Serializable interface. 
 - Replaced Space.isPersistent() with Space.getPersistenceType() and Space.getPersistenceDuration().
@@ -55,7 +55,7 @@ v1.2.0 - April 15, 2013
 - Added user creation to connection handler.
 - Added Space.getPersistenceChannel().
 
-v1.1.0 - November 7, 2012
+v1.1 - November 7, 2012
 
 - Added ConnectionHandler and related interfaces.
 - Added CDMVersion enumeration.
@@ -64,21 +64,21 @@ v1.1.0 - November 7, 2012
 - SpaceHandler: Added method to modify the list of models supported by an organizational space.
 - Minor interface changes. 
 
-v1.0.0 - October 25, 2012
+v1.0 - October 25, 2012
 
 - Added SpaceHandler.deleteSpace().
 - Added constants to space handler.
 - Compatible to the MIRROR Spaces Service v0.4.x.
 
-v1.0.0 RC1 - October 23, 2012
+v1.0 RC1 - October 23, 2012
 
 - Added clear() to connection mode handler interface.
 
-v1.0.0 BETA1 - October 16, 2012
+v1.0 BETA1 - October 16, 2012
 
 - Several fixes.
 
-v1.0.0 ALPHA1 - September 24, 2012
+v1.0 ALPHA1 - September 24, 2012
 
 - Initial version.
 
